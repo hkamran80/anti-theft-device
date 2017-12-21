@@ -9,4 +9,8 @@ Components for this project:
 </ul>
 Schematic: <img src="https://hkamran80.github.io/anti-theft-device/atd_schematic.png" width=992 height=594>
   <br><br>
-<small>The contents of this repository are under the Creative Commons Attribution-ShareAlike 4.0 International license.</small>
+<small>
+  The contents of this repository are under the Creative Commons Attribution-ShareAlike 4.0 International license.
+    <br>
+  The schematic/circuit diagram was created using Autodesk's TinkerCAD Circuits.
+</small>
