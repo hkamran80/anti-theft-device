@@ -49,11 +49,13 @@ void loop() {
   }
   
   if (distance <= 60) {
+    // 60cm = 2ft
     digitalWrite(medThreat, LOW);
     digitalWrite(noThreat, LOW);
     
     digitalWrite(highThreat, HIGH);
   } else if ((distance > 0) && (distance <= 152)) {
+    // 152cm = 5ft
     digitalWrite(highThreat, LOW);
     digitalWrite(noThreat, LOW);
     
@@ -61,6 +63,7 @@ void loop() {
     delay(1000);
     digitalWrite(medThreat, LOW);
   } else if (distance > 152) {
+    // 152cm = 5ft
     digitalWrite(highThreat, LOW);
     digitalWrite(medThreat, LOW);
     
