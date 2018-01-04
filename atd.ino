@@ -25,7 +25,7 @@ void setup() {
   Serial.begin(9600);
   pinMode(trigPin, OUTPUT); // Microphone
   pinMode(echoPin, INPUT); // Speaker
-  highThreat
+  
   pinMode(highThreat, OUTPUT); // Red LED
   pinMode(medThreat, OUTPUT); // Yellow LED
   pinMode(noThreat, OUTPUT); // Green LED
